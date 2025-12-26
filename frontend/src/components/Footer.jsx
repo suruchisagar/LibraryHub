@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="w-full h-screen flex flex-col justify-between">
       {/* Subscribe Section */}
-      <div className="bg-yellow-500 text-center py-12 px-4 flex-grow flex flex-col justify-center items-center">
+      <div className="bg-orange-400 text-center py-12 px-4 flex-grow flex flex-col justify-center items-center">
         <h2 className="text-2xl md:text-3xl font-extrabold text-white uppercase mb-4">
           Join Library Community to Get Updates
         </h2>
@@ -30,26 +30,26 @@ const Footer = () => {
       </div>
 
       {/* Footer Section */}
-      <footer className="bg-black text-white py-10 px-6 border-t-4 border-yellow-500">
+      <footer className="bg-black text-white py-10 px-6 border-t-4 border-orange-400">
   <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between gap-10">
     
     {/* Left - Brand Info and Social */}
     <div className="md:w-1/2">
-      <h3 className="text-lg font-extrabold mb-3">LibManage</h3>
+      <h3 className="text-lg font-extrabold mb-3">LibraryHub</h3>
       <p className="text-gray-400 text-sm mb-4">
         Manage your library and study spaces with ease and efficiency.
       </p>
       <div className="flex gap-3 mt-2">
-        <span className="bg-yellow-400 text-black p-2 rounded cursor-pointer">
+        <span className="bg-orange-400 text-black p-2 rounded cursor-pointer">
           <FaFacebookF />
         </span>
-        <span className="bg-yellow-400 text-black p-2 rounded cursor-pointer">
+        <span className="bg-orange-400 text-black p-2 rounded cursor-pointer">
           <FaInstagram />
         </span>
-        <span className="bg-yellow-400 text-black p-2 rounded cursor-pointer">
+        <span className="bg-orange-400 text-black p-2 rounded cursor-pointer">
           <FaTwitter />
         </span>
-        <span className="bg-yellow-400 text-black p-2 rounded cursor-pointer">
+        <span className="bg-orange-400 text-black p-2 rounded cursor-pointer">
           <FaLinkedinIn />
         </span>
       </div>

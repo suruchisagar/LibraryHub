@@ -4,8 +4,8 @@ function Navbar(){
 
     return(
         <div className="flex justify-between px-8 py-4 border-b border-gray-200 " >
-            <div>
-                logo
+            <div className="text-2xl font-bold text-indigo-600">
+                LibraryHub
             </div>
             <div>
                 <ul className="flex gap-8">
